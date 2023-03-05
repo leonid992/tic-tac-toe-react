@@ -1,0 +1,19 @@
+html {
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}

@@ -1,0 +1,56 @@
+.box {
+  background-color: white;
+  border: 1px solid #8080ff;
+  box-shadow: 0 0.15em 0.175em hsla(0, 0%, 0%, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b9dc1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  transition: 500ms;
+  transition-timing-function: ease;
+}
+.box:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+  transition: 500ms;
+  transition-timing-function: ease;
+}
+
+.dLineLeft {
+  background: linear-gradient(
+    to top right,
+    #fff calc(50% - 1px),
+    black,
+    #fff calc(50% + 1px)
+  );
+}
+
+.dLineRight {
+  background: linear-gradient(
+    to top left,
+    #fff calc(50% - 1px),
+    black,
+    #fff calc(50% + 1px)
+  );
+}
+
+.sLineV {
+  background: linear-gradient(
+    to left,
+    #fff calc(50% - 1px),
+    black,
+    #fff calc(50% + 1px)
+  );
+}
+
+.sLineH {
+  background: linear-gradient(
+    to top,
+    #fff calc(50% - 1px),
+    black,
+    #fff calc(50% + 1px)
+  );
+}
